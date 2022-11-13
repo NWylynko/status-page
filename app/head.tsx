@@ -2,7 +2,8 @@ export default function Head() {
   return (
     <>
       <title>Status Page</title>
-      <meta content="width=device-width, initial-scale=1" name="viewport" />
+      <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
     </>
   )
 }
