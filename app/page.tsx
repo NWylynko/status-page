@@ -1,6 +1,5 @@
 
 import styles from "./page.module.css"
-import { Box } from "../components/Box";
 
 import { DiscordDetail } from "../Details/Discord";
 import { GithubDetail } from "../Details/Github";
@@ -18,18 +17,22 @@ import { ZohoEmailsDetail } from "../Details/ZohoEmails";
 export default async function Home() {
   return (
     <main className={styles.container}>
+
       <DiscordDetail />
       <GithubDetail />
       <GoogleCalendarDetail />
       <LinkedinDetail />
+
       <PcControlDetail />
       <RedditDetail />
       <SpotifyDetail />
       <StocksDetail />
+
       <TwitterDetail />
       <VercelDetail />
       <YoutubeLiveDetail />
       <ZohoEmailsDetail />
+      
     </main>
   )
 }

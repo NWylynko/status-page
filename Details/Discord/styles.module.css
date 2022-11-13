@@ -1,0 +1,37 @@
+
+.container {
+  background-color: #738adb80;
+}
+
+.header {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  display: grid;
+  grid-template:
+    "image title"
+    "image message";
+  justify-content: start;
+  align-items: center;
+}
+
+.image {
+  grid-area: image;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.title {
+  grid-area: title;
+}
+
+.message {
+  grid-area: message;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
